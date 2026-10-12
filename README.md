@@ -37,3 +37,9 @@ Ehrlich ausfüllen, das zählt zur Bewertung.
 **Ein Fall, in dem KI geholfen hat:** Was habt ihr gefragt, was kam zurück, was habt ihr geändert?
 
 **Ein Fall, in dem KI falsch lag:** Woran habt ihr es gemerkt, wie habt ihr es gelöst?
+
+## Aufgaben
+
+### WE1_Blatt02_Das-Gerüst
+
+![Screenshot vom Rich-Test](json-ld.png)
