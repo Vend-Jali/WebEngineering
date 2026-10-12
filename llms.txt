@@ -1,0 +1,4 @@
+- [Startseite](https://example.com/index.html): Startseite
+- [Über uns](https://example.com/ueber.html): Informationen über das Projekt
+- [TippTest](https://example.com/tipptest.html): Tipp Test Spiel
+- [Leaderboard](https://example.com/leaderboard.html): Leaderboard

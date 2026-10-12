@@ -1,4 +1,4 @@
-# Projektname
+# TypeTesting
 
 Ein bis zwei Sätze: Man kann seine Wörter pro Minute testen. Mit lokalem Leaderboard
 
