@@ -30,6 +30,7 @@ body {
 body.dark-mode {
   --bg: #121212;   
   --text: #ffffff;
+  --flaeche: #1e1e1e;
 }
 
 main {
