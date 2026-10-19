@@ -31,7 +31,20 @@ nav {
   background: var(--flaeche);
 }
 
-a { color: var(--akzent); }
+a {
+    text-decoration: none;
+    color: var(--text);
+    font-weight: bold;   
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+a:focus-visible {
+    text-decoration: underline;
+}
 
 footer {
   padding: var(--abstand);
