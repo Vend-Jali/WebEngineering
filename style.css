@@ -88,3 +88,9 @@ header {
   top: -6px;
   right: -10px;
 }
+
+#theme-toggle {
+  position: absolute;
+  top: 1rem;   /* Abstand von oben */
+  right: 1rem; /* Abstand von rechts */
+}
