@@ -7,6 +7,15 @@
   --abstand: 1rem;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #121212;
+    --text: #f4f4f4;
+    --akzent: #0000ff;
+    --flaeche: #1e1e1e;
+  }
+}
+
 * { box-sizing: border-box; }
 
 body {
@@ -16,12 +25,16 @@ body {
   line-height: 1.5;
   color: var(--text);
   background: var(--bg);
+  background-color: var(--bg);
+  color: var(--text);
 }
 
 main {
   max-width: 65ch;
   margin-inline: auto;
   padding: var(--abstand);
+  background-color: var(--flaeche);
+  color: var(--text);
 }
 
 nav {
