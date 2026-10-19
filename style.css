@@ -25,8 +25,11 @@ body {
   line-height: 1.5;
   color: var(--text);
   background: var(--bg);
-  background-color: var(--bg);
-  color: var(--text);
+}
+
+body.dark-mode {
+  --bg: #121212;   
+  --text: #ffffff;
 }
 
 main {
