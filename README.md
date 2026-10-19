@@ -43,3 +43,11 @@ Ehrlich ausfüllen, das zählt zur Bewertung.
 ### WE1_Blatt02_Das-Gerüst
 
 ![Screenshot vom Rich-Test](json-ld.png)
+
+### Kollision
+
+**Kollision**
+
+- Regeln: Die erste Regel für die Hintergrundfarbe des Headers und die zweite Regel für die Hintergrundfarbe des Headers treffen auf dasselbe Element zu.
+- Gewinner: Die zweite Regel gewinnt (die später in der css Datei)
+- Warum: Beide Regeln haben exakt dieselbe Spezifität, weshalb die Kaskade greift und die weiter unten in der Datei stehende Regel gewinnt. Die alte gespeicherte Anweisung wird überschrieben und durch die nachfolgende ausgetauscht (chronlogische vorgehensweise)
