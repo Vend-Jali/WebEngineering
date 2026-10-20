@@ -91,7 +91,11 @@ header {
 }
 
 #theme-toggle {
-  position: absolute;
-  top: 1rem;   /* Abstand von oben */
-  right: 1rem; /* Abstand von rechts */
+  margin-left: auto; /* Schiebt den Button in der Flexbox ganz nach rechts */
+  cursor: pointer;
+  background: none;
+  border: 1px solid var(--text);
+  color: var(--text);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
 }
