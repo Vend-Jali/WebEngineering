@@ -7,13 +7,6 @@
   --abstand: 1rem;
 }
 
-:root {
-  --bg: #121212;
-  --text: #f4f4f4;
-  --akzent: #0000ff;
-  --flaeche: #1e1e1e;
-}
-
 * { box-sizing: border-box; }
 
 body {
@@ -26,8 +19,9 @@ body {
 }
 
 body.dark-mode {
-  --bg: #121212;   
+  --bg: #121212;
   --text: #ffffff;
+  --akzent: #0000ff;
   --flaeche: #1e1e1e;
 }
 
