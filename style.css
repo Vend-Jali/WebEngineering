@@ -7,13 +7,11 @@
   --abstand: 1rem;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #121212;
-    --text: #f4f4f4;
-    --akzent: #0000ff;
-    --flaeche: #1e1e1e;
-  }
+:root {
+  --bg: #121212;
+  --text: #f4f4f4;
+  --akzent: #0000ff;
+  --flaeche: #1e1e1e;
 }
 
 * { box-sizing: border-box; }
@@ -91,7 +89,7 @@ header {
 }
 
 #theme-toggle {
-  margin-left: auto; /* Schiebt den Button in der Flexbox ganz nach rechts */
+  margin-left: auto; 
   cursor: pointer;
   background: none;
   border: 1px solid var(--text);
