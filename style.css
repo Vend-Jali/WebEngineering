@@ -91,3 +91,31 @@ header {
   padding: 0.5rem 1rem;
   border-radius: var(--radius);
 }
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--abstand);
+  margin-top: var(--abstand);
+}
+
+.stats-grid .card {
+  background: var(--bg);
+  padding: var(--abstand);
+  border-radius: var(--radius);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .stats-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
