@@ -6,6 +6,7 @@
   <title>Tipp Rush – Wörter pro Minute messen und Richtigkeit</title>
   <meta name="description" content="Starte den Tipptest, tippe den Text ab und erfahre sofort deine Wörter pro Minute und deine Genauigkeit.">
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
   <header>
@@ -16,9 +17,26 @@
     </nav>
   </header>
 
-  <main>
+  <main class="space-y-4">
     <h1>Tipp Rush</h1>
     <p>Tippe den angezeigten Text so schnell und fehlerfrei wie möglich ab. Die Zeit läuft los, sobald du das erste Zeichen eingibst.</p>
+    <!--
+    <div class="stats-grid">
+      <div class="card">WPM: 0</div>
+      <div class="card">Genauigkeit: 100%</div>
+      <div class="card">Fehler: 0</div>
+    </div>
+    -->
+    <div class="grid grid-cols-3 gap-4">
+      <div class="p-4 rounded-xl border border-black/10 text-center font-bold bg-white">WPM: 0</div>
+      <div class="p-4 rounded-xl border border-black/10 text-center font-bold bg-white">Genauigkeit: 100%</div>
+      <div class="p-4 rounded-xl border border-black/10 text-center font-bold bg-white">Fehler: 0</div>
+    </div>
+
+    <input type="text" placeholder="Hier tippen..." class="w-full p-4 rounded-xl border border-black/10 bg-white focus:outline-none focus:ring-2 focus:ring-blue-500">
+    <button class="px-5 py-2.5 rounded-xl border border-black/10 text-center font-bold bg-white">
+      Starten
+    </button>
   </main>
 
   <footer>

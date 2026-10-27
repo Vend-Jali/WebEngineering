@@ -51,3 +51,19 @@ Ehrlich ausfüllen, das zählt zur Bewertung.
 - Regeln: Die erste Regel für die Hintergrundfarbe des Headers und die zweite Regel für die Hintergrundfarbe des Headers treffen auf dasselbe Element zu.
 - Gewinner: Die zweite Regel gewinnt (die später in der css Datei)
 - Warum: Beide Regeln haben exakt dieselbe Spezifität, weshalb die Kaskade greift und die weiter unten in der Datei stehende Regel gewinnt. Die alte gespeicherte Anweisung wird überschrieben und durch die nachfolgende ausgetauscht (chronlogische vorgehensweise)
+
+## UI-Komponenten (A3)
+
+Für ein konsistentes Designsystem wurden folgende drei wiederkehrenden Komponenten mit Tailwind CSS umgesetzt:
+
+1. **Karten (Cards)**
+   - Vorkommen: Statistik-Sektion (`WPM`, `Genauigkeit`, `Fehler`) in `tipptest.html`
+   - Styling: `p-4 rounded-xl border border-black/10 bg-white`
+
+2. **Eingabefelder (Inputs)**
+   - Vorkommen: Zentrales Textfeld für den Tipptest
+   - Styling: `w-full p-4 rounded-xl border border-black/10 bg-white`
+
+3. **Buttons (Schaltflächen)**
+   - Vorkommen: Startelement
+   - Styling: `px-5 py-2.5 rounded-xl border border-black/10 text-center font-bold bg-white`
