@@ -2,7 +2,7 @@
 
 Ein bis zwei Sätze: Man kann seine Wörter pro Minute testen. Mit lokalem Leaderboard
 
-**Live:** noch nicht festgelegt
+**Live:** https://vend-jali.github.io/WebEngineering/
 **Team:** Julius Strobel, Thilo Esch
 
 ## Was die App kann
